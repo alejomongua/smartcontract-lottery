@@ -3,7 +3,12 @@ from scripts.helpers import get_account
 from web3 import Web3
 
 # Update this value before test
-CURRENT_USD_ETH = 3882
+CURRENT_USD_ETH = 4121.37
+# To do:
+# use this url:
+# https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD
+# To get ethereum price
+
 # Price variation tolerance for test to pass
 PRICE_TOLERANCE = 0.1
 
